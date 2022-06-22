@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #222831;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e8e8e8;
+  padding: 30px 50px;
+}
+
+.btn-add,
+nav {
+  margin-bottom: 30px;
+}
+.btn-add a {
+  background-color: #28df99;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+nav a {
+  background-color: #d1d1d1;
+  padding: 2px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.form-input {
+  width: 40%;
+  height: 60vh;
+  margin: 0 auto;
+
+  /* border: 1px red solid; */
+}
+
+.list-notes {
+  width: 55%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+  background-color: #28df99;
+  transition: 0.2s;
+}
+form button:hover {
+  cursor: pointer;
+}
+form button:active {
+  background-color: #99f3bd;
+}
+
+.card {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.card-action a {
+  padding: 2px 6px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.card-action .btn-edit {
+  background-color: #00bcd4;
+}
+.card-action .btn-delete {
+  background-color: #ff4b5c;
+}
+
+.card-body {
+  margin-bottom: 15px;
+}
